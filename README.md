@@ -1,0 +1,2 @@
+# ArtX
+Website for artists
