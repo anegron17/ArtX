@@ -4,7 +4,6 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
-<<<<<<< HEAD
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -35,6 +34,7 @@ body, html {
   min-height: 400px;
 }
 
+<<<<<<< HEAD
 
 =======
 }
@@ -62,6 +62,8 @@ body, html {
   min-height: 400px;
 }
 
+=======
+>>>>>>> refs/remotes/origin/master
 .caption {
   position: absolute;
   left: 0;
@@ -99,7 +101,9 @@ a {
 
 
 nav{
-  background-color:  #FFD913;
+  background-color:
+#e9df17
+;
   height: 100px
 }
 
@@ -127,20 +131,11 @@ nav{
 }
 
 .page-footer{
-<<<<<<< HEAD
 background-color: #FFD913;
-=======
-background-color: gray;
->>>>>>> fb1944bb967b18cc7b7477e909f7ff13739e5527
+
 }
 
 .card {
   width: 400px;
   height: 400px;
-<<<<<<< HEAD
-}
-h3 {
-  background-color: #FFD913;
-=======
->>>>>>> fb1944bb967b18cc7b7477e909f7ff13739e5527
 }
