@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
-/* index page styling */
 
->>>>>>> fb1944bb967b18cc7b7477e909f7ff13739e5527
 body, html {
   height: 100%;
   margin: 0;
@@ -66,7 +62,6 @@ body, html {
   min-height: 400px;
 }
 
->>>>>>> fb1944bb967b18cc7b7477e909f7ff13739e5527
 .caption {
   position: absolute;
   left: 0;
