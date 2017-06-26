@@ -1,8 +1,14 @@
+<<<<<<< HEAD
+=======
+/* index page styling */
+
+>>>>>>> fb1944bb967b18cc7b7477e909f7ff13739e5527
 body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+<<<<<<< HEAD
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -34,6 +40,33 @@ body, html {
 }
 
 
+=======
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../images/download.png");
+  min-height: 400px;
+}
+.bgimg-2 {
+  background-image: url("../images/img-techos.jpg");
+  min-height: 100%;
+}
+
+.bgimg-3 {
+  background-image: url("../images/gry.png");
+  min-height: 400px;
+}
+
+>>>>>>> fb1944bb967b18cc7b7477e909f7ff13739e5527
 .caption {
   position: absolute;
   left: 0;
@@ -99,13 +132,20 @@ nav{
 }
 
 .page-footer{
+<<<<<<< HEAD
 background-color: #FFD913;
+=======
+background-color: gray;
+>>>>>>> fb1944bb967b18cc7b7477e909f7ff13739e5527
 }
 
 .card {
   width: 400px;
   height: 400px;
+<<<<<<< HEAD
 }
 h3 {
   background-color: #FFD913;
+=======
+>>>>>>> fb1944bb967b18cc7b7477e909f7ff13739e5527
 }
