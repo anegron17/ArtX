@@ -1,5 +1,5 @@
 {
-  "name": "artx",
+  "name": "empire-solutions",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,5 +13,17 @@
     "express": "~4.15.2",
     "morgan": "~1.8.1",
     "serve-favicon": "~2.4.2"
-  }
+  },
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulPoll/Empire-Solutions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaulPoll/Empire-Solutions/issues"
+  },
+  "homepage": "https://github.com/RaulPoll/Empire-Solutions#readme"
 }
