@@ -7,12 +7,10 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-<<<<<<< HEAD
+
 var contact = require('./routes/contact')
 
-=======
 var contactus = require('./routes/contactus');
->>>>>>> ef991fe981f199bc008d72756384c766d0939e40
 var app = express();
 
 // view engine setup
@@ -29,12 +27,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
-<<<<<<< HEAD
+
 app.use('/contact', contact);
 
-=======
 app.use('/contactus', contactus);
->>>>>>> ef991fe981f199bc008d72756384c766d0939e40
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
