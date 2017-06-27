@@ -9,8 +9,14 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 
+<<<<<<< HEAD
 var gallery = require('./routes/gallery')
+=======
+var contact = require('./routes/contact')
+var account = require('./routes/account');
+>>>>>>> 6f358fe9b69c942ca910e38b6cb96ed6035b5c45
 var aboutus = require('./routes/aboutus');
+var shop = require('./routes/shop');
 
 var app = express();
 
@@ -28,8 +34,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 
+<<<<<<< HEAD
 app.use('/aboutus', aboutus);
 app.use('/gallery', gallery);
+=======
+app.use('/contact', contact);
+
+app.use('/account', account);
+app.use('/aboutus', aboutus);
+app.use('/shop', shop);
+
+>>>>>>> 6f358fe9b69c942ca910e38b6cb96ed6035b5c45
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
