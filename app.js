@@ -9,7 +9,6 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 
-var contact = require('./routes/contact')
 var account = require('./routes/account');
 var aboutus = require('./routes/aboutus');
 var shop = require('./routes/shop');
@@ -29,8 +28,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-
-app.use('/contact', contact);
 
 app.use('/account', account);
 app.use('/aboutus', aboutus);
