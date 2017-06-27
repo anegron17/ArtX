@@ -10,8 +10,9 @@ var users = require('./routes/users');
 
 
 var contact = require('./routes/contact')
-var contactus = require('./routes/contactus');
+var account = require('./routes/account');
 var aboutus = require('./routes/aboutus');
+var shop = require('./routes/shop');
 
 var app = express();
 
@@ -31,8 +32,9 @@ app.use('/', index);
 
 app.use('/contact', contact);
 
-app.use('/contactus', contactus);
+app.use('/account', account);
 app.use('/aboutus', aboutus);
+app.use('/shop', shop);
 
 
 // catch 404 and forward to error handler
