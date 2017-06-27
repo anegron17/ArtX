@@ -6,33 +6,28 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 .bmimg-4,{
+.bgimg-1, .bgimg-2, {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: yellow;
 
 }
+
 .bgimg-1 {
   background-image: url("../images/color mixture.jpg");
-  min-height: 400px;
-}
-.bgimg-2 {
-  background-image: url("../images/obra.jpg");
   min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.bgimg-3 {
+.bgimg-2 {
   background-image: url("../images/paleta.jpg");
-  min-height: 400px;
-}
-
-.bgimg-4 {
-  background-image: url("../images/obra2.jpg");
-  min-height: 400px;
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -62,7 +57,7 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, {
         background-attachment: scroll;
     }
 }
@@ -71,38 +66,33 @@ a {
   color: #black;
 }
 
-
-nav{
+nav {
   background-color: #e9df17;
   height: 100px
 }
-
 
 .logo {
   width:140px;
   height:100px;
 }
-.h
- {
+
+.h {
   margin-top: 20px;
 }
 
-.g
- {
-  margin-top: 20px;
-}
-.a
- {
-  margin-top: 20px;
-}
-.c
- {
+.g {
   margin-top: 20px;
 }
 
-.page-footer{
+.a {
+  margin-top: 20px;
+}
+.c {
+  margin-top: 20px;
+}
+
+.page-footer {
 background-color: #FFD913;
-
 }
 
 .card {
