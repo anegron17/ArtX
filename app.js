@@ -7,10 +7,10 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var events = require('./routes/events')
 var account = require('./routes/account');
 var aboutus = require('./routes/aboutus');
 var shop = require('./routes/shop');
-
 var app = express();
 
 // view engine setup
@@ -26,10 +26,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-
-
-app.use('/account', account);
 app.use('/aboutus', aboutus);
+app.use('/events', events);
+app.use('/account', account);
 app.use('/shop', shop);
 
 // catch 404 and forward to error handler
