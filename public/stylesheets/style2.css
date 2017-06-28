@@ -141,3 +141,8 @@ background-color: gray;
   background: #125688;
   color: white;
 }
+
+#group{
+  width: 700px;
+  height: 500px;
+}
