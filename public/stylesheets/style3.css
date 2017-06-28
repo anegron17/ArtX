@@ -94,8 +94,12 @@ nav {
   margin-top: 20px;
 }
 
-.page-footer {
+.page-footer{
+
 background-color: #FFD913;
+
+background-color: gray;
+
 }
 
 .card {
