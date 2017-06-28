@@ -61,8 +61,6 @@ background-color: gray;
 
 }
 
-.card {
-  width: 400px;
-  height: 400px;
-
+.materialboxed{
+  width: 350px;
 }
