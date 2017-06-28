@@ -63,12 +63,12 @@ h3 {
 }
 /* end of index styling */
 a {
-  color: #black;
+  color: black;
 }
 
 nav {
   background-color: #e9df17;
-  height: 100px
+  height: 100px;
 }
 
 .logo {

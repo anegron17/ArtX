@@ -1,9 +1,4 @@
 
-.logo {
-  width:140px;
-  height:100px;
-}
-
 
 body, html {
   height: 100%;
@@ -69,19 +64,19 @@ h3 {
 }
 /* end of index styling */
 a {
-  color: #black;
+  color: black;
 }
 
->
+
 nav {
   background-color: #e9df17;
-  height: 100px
+  height: 100px;
 }
 
 
 .logo {
-  width:140px;
-  height:100px;
+  width: 140px;
+  height: 100px;
 }
 
 .h {
