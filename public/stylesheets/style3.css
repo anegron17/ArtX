@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 .logo {
   width:140px;
   height:100px;
 }
-=======
+
 
 body, html {
   height: 100%;
@@ -72,13 +72,12 @@ a {
   color: #black;
 }
 
->>>>>>> 2a17fee5618f8c22fde6a011979da88095c3b4b1
+>
 nav {
   background-color: #e9df17;
   height: 100px
 }
-<<<<<<< HEAD
-=======
+
 
 .logo {
   width:140px;
@@ -108,4 +107,48 @@ background-color: #FFD913;
   width: 400px;
   height: 400px;
 }
->>>>>>> 2a17fee5618f8c22fde6a011979da88095c3b4b1
+
+/* footer social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
