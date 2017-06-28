@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+.logo {
+  width:140px;
+  height:100px;
+}
+=======
 
 body, html {
   height: 100%;
@@ -66,10 +72,13 @@ a {
   color: #black;
 }
 
+>>>>>>> 2a17fee5618f8c22fde6a011979da88095c3b4b1
 nav {
   background-color: #e9df17;
   height: 100px
 }
+<<<<<<< HEAD
+=======
 
 .logo {
   width:140px;
@@ -99,3 +108,4 @@ background-color: #FFD913;
   width: 400px;
   height: 400px;
 }
+>>>>>>> 2a17fee5618f8c22fde6a011979da88095c3b4b1

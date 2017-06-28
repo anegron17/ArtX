@@ -7,6 +7,11 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+<<<<<<< HEAD
+
+var events = require('./routes/events')
+=======
+>>>>>>> 2a17fee5618f8c22fde6a011979da88095c3b4b1
 var account = require('./routes/account');
 var aboutus = require('./routes/aboutus');
 var shop = require('./routes/shop');
@@ -27,11 +32,19 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 
-
-app.use('/account', account);
+<<<<<<< HEAD
 app.use('/aboutus', aboutus);
+app.use('/events', events);
+=======
+
+>>>>>>> 2a17fee5618f8c22fde6a011979da88095c3b4b1
+app.use('/account', account);
 app.use('/shop', shop);
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2a17fee5618f8c22fde6a011979da88095c3b4b1
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
