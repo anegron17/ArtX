@@ -28,11 +28,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 
 
-app.use('/gallery', gallery);
 app.use('/account', account);
 app.use('/aboutus', aboutus);
 app.use('/shop', shop);
-app.use('/gallery', gallery);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
