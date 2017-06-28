@@ -1,3 +1,15 @@
+div{
+  align-items: center;
+}
+
+p{
+  text-align: center;
+}
+
+a{
+  align-items: center;
+}
+
 input[type=text] {
     width: 130px;
     box-sizing: border-box;
