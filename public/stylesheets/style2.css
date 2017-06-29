@@ -39,6 +39,7 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 180px;
+    margin-left: 150px;
 }
 
 div.gallery:hover {
@@ -61,7 +62,7 @@ a {
 
 
 nav{
-  background-color:  #e9df17;
+  background-color:  #666666;
   height: 100px
 }
 
@@ -153,4 +154,8 @@ background-color: gray;
 #snapfil{
   width: 300px;
   height: 550px;
+}
+
+p{
+  color: black;
 }

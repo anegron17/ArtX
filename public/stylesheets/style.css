@@ -67,7 +67,7 @@ a {
 }
 
 nav {
-  background-color: #e9df17;
+  background-color: #666666;
   height: 100px;
 }
 
@@ -147,4 +147,18 @@ background-color: gray;
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/color mixture.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
