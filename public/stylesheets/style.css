@@ -48,6 +48,10 @@ body, html {
 
 }
 
+h1{
+  color: black;
+}
+
 .bgimg-1 {
   background-image: url("../images/color mixture.jpg");
   min-height: 100%;
@@ -80,6 +84,8 @@ body, html {
   letter-spacing: 10px;
 }
 
+
+
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -104,7 +110,11 @@ nav {
 }
 
 .logo {
+<<<<<<< HEAD
   width:110px;
+=======
+  width:130px;
+>>>>>>> 8846bde6ddd620233220fb07a719a6a514c4cdb6
   height:100px;
 }
 
