@@ -105,16 +105,13 @@ a {
 }
 
 nav {
-  background-color: #666666;
+  background-color: #1976d2;
   height: 100px;
 }
 
 .logo {
-<<<<<<< HEAD
   width:110px;
-=======
   width:130px;
->>>>>>> 8846bde6ddd620233220fb07a719a6a514c4cdb6
   height:100px;
 }
 
