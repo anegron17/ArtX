@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div.gallery{
   align-items: center;
 }
@@ -23,6 +24,12 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+=======
+h3{
+  color: black;
+}
+
+>>>>>>> 0bf3a5a29099e3b236dc37c564901de569dd2e2b
 
 body, html {
   height: 100%;
@@ -97,7 +104,7 @@ nav {
 }
 
 .logo {
-  width:140px;
+  width:120px;
   height:100px;
 }
 
@@ -177,6 +184,20 @@ background-color: gray;
 .parallax {
     /* The image used */
     background-image: url("../images/color mixture.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/drop.jpg");
 
     /* Set a specific height */
     height: 500px;
