@@ -1,103 +1,165 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ART X</title>
-    <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+      <title>ART X</title>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="/javascript/slider.js"></script>
+      <link rel='stylesheet' href='/stylesheets/style2.css' />
+      <style>
+        h3 {
+            color: black;
+          }
 
+          h5{
+            color: black;
+          }
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+          p{
+            color: black;
+          }
+      </style>
+      <style>
+      div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+          margin-left: 150px;
+      }
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel='stylesheet' href='/stylesheets/style2.css' />
+      div.gallery:hover {
+          border: 1px solid #777;
+      }
+
+      div.gallery img {
+          width: 100%;
+          height: auto;
+      }
+
+      div.desc {
+          padding: 15px;
+          text-align: center;
+      }
+      </style>
   </head>
   <body>
     <nav>
-     <nav>
-                <div class="nav-wrapper">
-            <a href="#"><img class="logo" src="/images/new.png" alt="ArtX Logo"></a>
-                   <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="/" class="a">Home</a></li>
-              <li><a href="/shop" class="a">Shop</a></li>
-              <li><a href="/events" class="a">Events</a></li>
-              <li><a href="/aboutus" class="a">About Us</a></li>
-              <li><a href="/account" class="a">Account</a></li>
-            </ul>
-          </div>
-         </nav>
+      <div class="nav-wrapper">
+        <a href="#"><img class="logo" src="/images/new.png" alt="ArtX Logo"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/" class="a">Home</a></li>
+          <li><a href="/shop" class="a">Shop</a></li>
+          <li><a href="/events" class="a">Events</a></li>
+          <li><a href="/aboutus" class="a">About Us</a></li>
+          <li><a href="/account" class="a">Account</a></li>
+        </ul>
+      </div>
+    </nav>
 
-<center><h3>Our Team:</h3></center>
-<center><img id= "group" class="url" src="/images/group.jpg" alt="Group"></center>
+    <div class="center">
+      <h3>Our Team:</h3>
+      <img id= "group" class="url" src="/images/group.jpg" alt="Group">
+      <h5>Axel Orta - Leader</h5>
+      <h5>Raúl Poll - Notetaker</h5>
+      <h5>Sarah Correa & Ariana Negron - Artists</h5>
+      <h5>Giancarlo Allio - Resource Investigator</h5>
+    </div>
+    <br>
 
+    <div class="center">
+    <h3>Our Mission:</h3>
+      <h5>We saw how artists had problems, some don't have inspiration to keep drawing.</h5>
+      <h5>Others just don't find the materials necessary to continue creating.</h5>
+      <h5>Then, we decided to create this website to help these artists to find inspiration and to buy the materials needed.</h5>
+      <h5>The website has all this so hop in and start using it.</h5>
+    </div>
+    <div class="team">
+      <h3 class="center">Have you seen our Snapchat filters?!</h3>
 
-<center><h5>Axel Orta - Leader</h5></center>
-<center><h5>Raúl Poll - Notetaker</h5></center>
-<center><h5>Sarah Correa & Ariana Negron - Artists</h5></center>
-<center><h5>Giancarlo Allio - Resource Investigator</h5></center>
-<br>
-<center><h3>Our Mission:</h3></center>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="/images/ARtX.png" style="width:100%">
+        </div>
 
-<p>
-  <center>We saw how artists had problems, some don't have inspiration to keep drawing.</center>
-<center>Others just don't find the materials necessary to continue creating.</center>
-    <center>Then, we decided to create this website to help these artists to find inspiration and to buy the materials needed.</center>
-     <center>The website has all this so hop in and start using it.</center> </p>
-<br><br><br>
+        <div class="mySlides fade">
+          <img src="/images/ArtX (1).png" style="width:100%">
+        </div>
 
-<style>
-h3 {
-  color: black;
-}
+        <div class="mySlides fade">
+          <img src="/images/ArX2.png" style="width:100%">
+        </div>
 
-h5{
-  color: black;
-}
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
 
-p{
-  color: black;
-}
-</style>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
 
-<h3>Have you seen our Snapchat filters?!</h3>
-
-<img id="snapfil" class="url" src="/images/ARtX.png" alt="snap">
-<img id="snapfil" class="url" src="/images/ArtX(1).png" alt="snap">
-<img id="snapfil" class="url" src="/images/ArX2.png" alt="snap">
-
-
-<footer class="page-footer">
-       <div class="container">
-         <div class="row">
-           <div class="col l6 s12">
-             <h5 class="white-text">Follow Us</h5>
-             <!-- Add font awesome icons -->
+    <div class=sponsors>
+      <h2><strong> Events We Sponsor </strong></h2>
+        <div class="gallery">
+          <a2 target="_blank" href="https://www.facebook.com/dreamInnPRgh/">
+            <img src="./images/dreaminn.jpg" alt="Dream Inn" width="300" height="200">
+          </a2>
+          <div class="desc">Dream Inn Hotel Gallery Alejandra Smith - July 25, 2017 <br> <br></div>
+        </div>
+        <div class="gallery">
+          <a2 target="_blank" href="https://m.firstbankpr.com/main/location/info?locationId=61">
+            <img src="./images/firstbank.jpg" alt="First Bank" width="300" height="200">
+          </a2>
+        </div>
+      <div class="desc">First Bank-Condado Ruben Rios Gallery - Always Open <br></div>
+      <div class="gallery">
+        <a2 target="_blank" href="http://www.puertoricodaytrips.com/loiza-festival/">
+          <img src="./images/loiza.jpg" alt="loiza" width="300" height="200">
+        </a2>
+        <div class="desc">Fiestas de Santiago Apóstol - August 15, 2017 <br></div>
+      </div>
+      <div class="gallery">
+        <a2 target="_blank" href="http://puertoriconow.seepuertorico.com/2016/06/07/puerto-rico-outdoor-celebrations-and-festivals-every-traveler-needs-to-know-about/">
+          <img src="./images/plantain.jpg" alt="plantain" width="300" height="200">
+        </a2>
+        <div class="desc">National Plantain Festival - October 9, 2017 <br></div>
+      </div>
+    </div>
+<br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Follow Us</h5>
+            <!-- Add font awesome icons -->
             <a href="https://www.facebook.com/ArtX-1408828055861624/" class="fa fa-facebook"></a>
             <a href="https://twitter.com" class="fa fa-twitter"></a>
             <a href="https://plus.google.com" class="fa fa-google"></a>
             <a href="https://www.instagram.com/official_artx/" class="fa fa-instagram"></a>
 
-
-
-
-             <p class="grey-text text-lighten-4"></p>
-           </div>
-           <div class="col l4 offset-l2 s12">
-             <h5 class="white-text">INFO</h5>
-             <ul>
-               <li><a class="grey-text text-lighten-3" href="#!">1-800-ART-X123</a></li>
-               <li><a class="grey-text text-lighten-3" href="#!">ArtX@gmail.com</a></li>
-             </ul>
-           </div>
-         </div>
-       </div>
-       <div class="footer-copyright">
-         <div class="container">
-         © 2017 Copyright Text
-         <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-         </div>
-       </div>
-     </footer>
-
+            <p class="grey-text text-lighten-4"></p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">INFO</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">1-800-ART-X123</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">ArtX@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container"> © 2017 Copyright Text <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
