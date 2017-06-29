@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 div.gallery{
   align-items: center;
 }
@@ -29,7 +29,6 @@ h3{
   color: black;
 }
 
->>>>>>> 0bf3a5a29099e3b236dc37c564901de569dd2e2b
 
 body, html {
   height: 100%;
@@ -111,7 +110,6 @@ nav {
 
 .logo {
   width:110px;
-  width:130px;
   height:100px;
 }
 
