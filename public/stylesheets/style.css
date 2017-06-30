@@ -3,6 +3,11 @@ div.gallery{
   align-items: center;
 }
 
+h6{
+  color: black
+}
+
+
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
